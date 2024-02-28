@@ -7,9 +7,11 @@
         mc:Ignorable="d"
         Title="Tetris Deiv-Ops" Height="600" Width="800"
         MinWidth="600" MinHeight="600"
-        Foreground="White"
-        FontFamily="Segoe UI Light" FontSize="28"
-        KeyDown="Window_KeyDown" >
+        Foreground="White">
+    <Window.Resources>
+        <FontFamily x:Key="CustomFont">/Assets/#8-bit Arcade In</FontFamily>
+    </Window.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -27,12 +29,12 @@
         </Grid.Background>
 
         <Viewbox Grid.Row="1"
-                Grid.Column="1"
-                Margin="0,0,0,20">
+                 Grid.Column="1"
+                 Margin="0,0,0,20">
             <Canvas x:Name="GameCanvas"
                     Background="#101010"
                     Width="250"
-                    Height="500"
+                    Height="510"
                     ClipToBounds="True"
                     Loaded="GameCanvas_Loaded"/>
         </Viewbox>
@@ -40,9 +42,10 @@
         <TextBlock x:Name="ScoreText"
                    Grid.Row="0"
                    Grid.Column="1"
-                   Text="Puntaje: "
+                   Text="PUNTAJE: "
                    Margin="0,10"
-                   TextAlignment="Center"/>
+                   TextAlignment="Center"
+                   FontFamily="{StaticResource CustomFont}"/>
 
         <StackPanel Grid.Row="1"
                     Grid.Column="0"
@@ -71,7 +74,7 @@
                Background="#cc000000"
                Grid.RowSpan="2"
                Grid.ColumnSpan="3"
-            Visibility="Hidden">
+               Visibility="Hidden">
             <StackPanel HorizontalAlignment="Center"
                         VerticalAlignment="Center">
                 <TextBlock Text="Game Over"

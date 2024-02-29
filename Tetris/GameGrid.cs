@@ -44,7 +44,7 @@
         }
         public bool IsRowEmpty(int r)
         {
-            for (int c = 0; r < Columns; c++)
+            for (int c = 0; c < Columns; c++)
             {
                 if (grid[r, c] != 0)
                 {
@@ -64,10 +64,10 @@
             
         private void MoveRowDown(int r, int numRows)
         {
-            for (int c=0;c< Columns;c++)
+            for (int c = 0;c < Columns; c++)
             {
-                grid[r+numRows,c] = grid[r,c];
-                grid[r,c] = 0;
+                grid[r + numRows, c] = grid[r, c];
+                grid[r, c] = 0;
             }
         }
 

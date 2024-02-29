@@ -85,7 +85,7 @@
                 {
                     MoveRowDown(r, cleared);
                 }
-            }
+            }   
             return cleared;
         }
     }

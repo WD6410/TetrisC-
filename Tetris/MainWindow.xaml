@@ -80,13 +80,16 @@
             <StackPanel HorizontalAlignment="Center"
                         VerticalAlignment="Center">
                 <TextBlock Text="Game Over"
+                           FontFamily="Assets/04B_30__.TTF#04B 30"
                            FontSize="48"
                            TextAlignment="Center"/>
                 <TextBlock x:Name="FinalScoreText"
                            Text="Puntaje"
+                           FontFamily="Assets/04B_30__.TTF#04B 30"
                            FontSize="36"
                            TextAlignment="Center"/>
                 <Button Content="Play Again"
+                        FontFamily="Assets/04B_30__.TTF#04B 30"
                         Background="LightGreen"
                         Margin="0,20,0,0"
                         Padding="5"

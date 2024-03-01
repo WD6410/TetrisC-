@@ -37,10 +37,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Assets\Icon.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Assets\Background.png" />
     <Resource Include="Assets\Block-Empty.png" />
     <Resource Include="Assets\Block-I.png" />

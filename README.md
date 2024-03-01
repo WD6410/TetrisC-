@@ -46,8 +46,7 @@ git clone https://github.com/dgonzalezt2/Tetris.git
 * Build and run the game.
 
 # Enjoy the classic Tetris on your own machine.
-* Interface 
-Tetris interface running
+* Tetris interface running
 
 ![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/f3fc57e8-690d-4de6-92e6-a881a819b9e3)
 

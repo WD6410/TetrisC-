@@ -29,6 +29,10 @@ Before running the game, make sure you have Microsoft Visual Studio installed an
 
 ![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/c5fc2c31-8792-4641-92af-3ac6e70bdf8c)
 
+* And open this visual studio solution file
+
+![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/8cf5ad4a-c6d2-43e5-8888-76275dbbbdc8)
+
 * Or you can create a new project 🟦
   
 ![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/c80ab377-cc96-46d3-bfa8-e79f33aaa093)

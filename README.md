@@ -52,6 +52,7 @@ git clone https://github.com/dgonzalezt2/Tetris.git
 * Tetris interface running
 
 ![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/4b828b28-20f9-4a19-bc75-02b10c502ea9)
+![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/5db9908f-085b-44da-9cfa-e280e4b1ee4a)
 
 # Contributions
 Contributions are welcome! If you find bugs, improvements or have new ideas, feel free to contact me on Linkedin

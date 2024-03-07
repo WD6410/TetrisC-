@@ -51,7 +51,7 @@ git clone https://github.com/dgonzalezt2/Tetris.git
 # Enjoy the classic Tetris on your own machine.
 * Tetris interface running
 
-![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/f3fc57e8-690d-4de6-92e6-a881a819b9e3)
+![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/4b828b28-20f9-4a19-bc75-02b10c502ea9)
 
 # Contributions
 Contributions are welcome! If you find bugs, improvements or have new ideas, feel free to contact me on Linkedin

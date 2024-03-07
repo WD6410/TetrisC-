@@ -8,8 +8,8 @@
         Title="Tetris Deiv-Ops" Height="600" Width="800"
         MinWidth="600" MinHeight="600"
         Foreground="White"
-        FontFamily="Segoe UI Light" FontSize="28"
-        KeyDown="Window_KeyDown" >
+        FontFamily="Assets/04B_30__.TTF#04B 30" FontSize="28"
+        KeyDown="Window_KeyDown">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -44,57 +44,77 @@
                    Text="Puntaje: "
                    Margin="0,10"
                    TextAlignment="Center"
-                   FontFamily="Assets/04B_30__.TTF#04B 30"/>
+                   FontFamily="./Assets/04B_30__.TTF#04B 30"/>
 
-        <!-- Update FontFamily for Puntaje-hold -->
+        <!-- Update FontFamily for Hold -->
         <StackPanel Grid.Row="1"
                     Grid.Column="0"
                     VerticalAlignment="Center"
                     HorizontalAlignment="Right">
-            <TextBlock Text="Hold"
+            <TextBlock x:Name="HoldTextBlock"
+                       Text="Hold"
                        TextAlignment="Center"
-                       FontFamily="Assets/04B_30__.TTF#04B 30"/>
+                       FontFamily="./Assets/04B_30__.TTF#04B 30"/>
             <Image x:Name="HoldImage"
                    Margin="20"
                    Width="125"/>
         </StackPanel>
 
-        <!-- Update FontFamily for Siguiente -->
+        <!-- Update FontFamily for Next -->
         <StackPanel Grid.Row="1"
-                    Grid.Column="2"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Left">
-            <TextBlock Text="Siguiente"
-                       TextAlignment="Center"
-                       FontFamily="Assets/04B_30__.TTF#04B 30"/>
+            Grid.Column="2"
+            VerticalAlignment="Center"
+            Margin="0,0,20,0">
+
+            <TextBlock x:Name="NextTextBlock"
+               Text="Siguiente"
+               TextAlignment="Center"
+               FontFamily="./Assets/04B_30__.TTF#04B 30"
+               IsEnabled="False"/>
             <Image x:Name="NextImage"
-                   Margin="20"
-                   Width="125"/>
+           Margin="20"
+           Width="125"/>
         </StackPanel>
 
         <Grid x:Name="GameOverMenu"
-               Background="#cc000000"
-               Grid.RowSpan="2"
-               Grid.ColumnSpan="3"
-               Visibility="Hidden">
+       Background="#cc000000"
+       Grid.RowSpan="2"
+       Grid.ColumnSpan="3"
+       Visibility="Hidden">
             <StackPanel HorizontalAlignment="Center"
-                        VerticalAlignment="Center">
-                <TextBlock Text="Game Over"
-                           FontFamily="Assets/04B_30__.TTF#04B 30"
-                           FontSize="48"
-                           TextAlignment="Center"/>
+                VerticalAlignment="Center">
+                <TextBlock x:Name="GameOverText"
+                   Text="Game Over"
+                   FontFamily="Assets/04B_30__.TTF#04B 30"
+                   FontSize="48"
+                   TextAlignment="Center"
+                   Foreground="Red">
+                    <TextBlock.Triggers>
+                        <EventTrigger RoutedEvent="Loaded">
+                            <BeginStoryboard>
+                                <Storyboard RepeatBehavior="Forever">
+                                    <DoubleAnimation Storyboard.TargetName="GameOverText"
+                                             Storyboard.TargetProperty="Opacity"
+                                             From="0" To="1" Duration="0:0:0.9"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </TextBlock.Triggers>
+                </TextBlock>
                 <TextBlock x:Name="FinalScoreText"
-                           Text="Puntaje"
-                           FontFamily="Assets/04B_30__.TTF#04B 30"
-                           FontSize="36"
-                           TextAlignment="Center"/>
+                   Text="Puntaje"
+                   FontFamily="Assets/04B_30__.TTF#04B 30"
+                   FontSize="36"
+                   TextAlignment="Center"/>
                 <Button Content="Play Again"
-                        FontFamily="Assets/04B_30__.TTF#04B 30"
-                        Background="LightGreen"
-                        Margin="0,20,0,0"
-                        Padding="5"
-                        Click="PlayAgain_Click"/>
+                FontFamily="Assets/04B_30__.TTF#04B 30"
+                Background="LightGreen"
+                Margin="0,20,0,0"
+                Padding="5"
+                Click="PlayAgain_Click"
+                Foreground="Black"/>
             </StackPanel>
         </Grid>
+
     </Grid>
 </Window>

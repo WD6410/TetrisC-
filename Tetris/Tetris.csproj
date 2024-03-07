@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\04B_30__.TTF" />
+    
     <None Remove="Assets\8-bit Arcade In.ttf" />
     <None Remove="Assets\8-bit Arcade Out.ttf" />
     <None Remove="Assets\Background.png" />
@@ -37,6 +37,9 @@
   </ItemGroup>
 
   <ItemGroup>
+	<Resource Include="Assets\04B_30__.TTF">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
     <Resource Include="Assets\Background.png" />
     <Resource Include="Assets\Block-Empty.png" />
     <Resource Include="Assets\Block-I.png" />

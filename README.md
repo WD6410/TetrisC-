@@ -57,6 +57,8 @@ git clone https://github.com/dgonzalezt2/Tetris.git
 
 ![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/5db9908f-085b-44da-9cfa-e280e4b1ee4a)
 
+* Game Play
+
 # Contributions
 Contributions are welcome! If you find bugs, improvements or have new ideas, feel free to contact me on Linkedin
 

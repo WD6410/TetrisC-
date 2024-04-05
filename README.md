@@ -63,7 +63,7 @@ https://github.com/dgonzalezt2/Tetris/assets/81880494/bf70e5b1-f162-4626-8301-e6
 
 
 # Contributions
-Contributions are welcome! If you find bugs, improvements or have new ideas, feel free to contact me on Linkedin
+Contributions are welcome! If you find bugs, improvements or have new ideas, feel free to contact me on Linkedin or Instagram.
 
 We hope you enjoy playing Tetris as much as we enjoyed creating it. Have fun, and good luck with your games!
 
@@ -71,5 +71,8 @@ We hope you enjoy playing Tetris as much as we enjoyed creating it. Have fun, an
 <p align="left">
   <a href="https://www.linkedin.com/in/david-gonz%C3%A1lez-tamayo/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/de91fca307a83d75fc5b1f6ce24540454acead41/icons/LinkedIn.svg" alt="Linkedin" width="40" height="40"/>
+  </a>
+    <a href="https://www.instagram.com/davidgonza0326/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/e67133bc60d96561bc247dfbc3eece0a897285c8/icons/Instagram.svg" alt="Instagram" width="40" height="40"/>
   </a>
 </p>

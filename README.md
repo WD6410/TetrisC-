@@ -3,7 +3,7 @@
 
 This project is a recreation of the iconic Tetris game, where players can enjoy the challenge of fitting pieces into a constantly changing board. The game has been developed in C# using Microsoft Visual Studio as the development environment.
 
-Created by: [Deiv-Ops](https://github.com/dgonzalezt2)
+Created by: [Deiv-Ops](https://github.com/WD6410)
 
 # Tools
 This repository contains an implementation of the classic Tetris game developed in C# using Microsoft Visual Studio.
@@ -25,41 +25,41 @@ This repository contains an implementation of the classic Tetris game developed 
 # Execution Requirements
 Before running the game, make sure you have Microsoft Visual Studio installed and have set up the development environment for C# projects.
 
-* You can clone the repository with this link [Tetris](https://github.com/dgonzalezt2/Tetris) 🟥
+* You can clone the repository with this link [Tetris](https://github.com/WD6410/TetrisC-) 🟥
 
-![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/c5fc2c31-8792-4641-92af-3ac6e70bdf8c)
+![image](https://github.com/WD6410/TetrisC-/assets/81880494/c5fc2c31-8792-4641-92af-3ac6e70bdf8c)
 
 * Or you can create a new project 🟦
   
-![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/c80ab377-cc96-46d3-bfa8-e79f33aaa093)
+![image](https://github.com/WD6410/TetrisC-/assets/81880494/c80ab377-cc96-46d3-bfa8-e79f33aaa093)
 
 * Install the WPF Application C# template
   
-![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/40127187-d411-4f7f-bec7-12e9e0f06f7d)
+![image](https://github.com/WD6410/TetrisC-/assets/81880494/40127187-d411-4f7f-bec7-12e9e0f06f7d)
 
 # Usage Instructions
 Clone this repository to your local machine.
 
 ```bash
-git clone https://github.com/dgonzalezt2/Tetris.git
+git clone https://github.com/WD6410/TetrisC-.git
 ```
 * Build and run the game.
 * And open this visual studio solution file
 
-![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/8cf5ad4a-c6d2-43e5-8888-76275dbbbdc8)
+![image](https://github.com/WD6410/TetrisC-/assets/81880494/8cf5ad4a-c6d2-43e5-8888-76275dbbbdc8)
 
 # Enjoy the classic Tetris on your own machine.
 * Tetris running
 
-![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/4b828b28-20f9-4a19-bc75-02b10c502ea9)
+![image](https://github.com/WD6410/TetrisC-/assets/81880494/4b828b28-20f9-4a19-bc75-02b10c502ea9)
 
 * Tetris when Game Over
 
-![image](https://github.com/dgonzalezt2/Tetris/assets/81880494/5db9908f-085b-44da-9cfa-e280e4b1ee4a)
+![image](https://github.com/WD6410/TetrisC-/assets/81880494/5db9908f-085b-44da-9cfa-e280e4b1ee4a)
 
 * Game Play
   
-https://github.com/dgonzalezt2/Tetris/assets/81880494/bf70e5b1-f162-4626-8301-e6ccb62e24c9
+https://github.com/WD6410/TetrisC-/assets/81880494/bf70e5b1-f162-4626-8301-e6ccb62e24c9
 
 
 # Contributions

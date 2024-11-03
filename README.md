@@ -6,7 +6,7 @@ This project is a recreation of the iconic Tetris game, where players can enjoy 
 Created by: [Deiv-Ops](https://github.com/WD6410)
 
 # Tools
-This repository contains an implementation of the classic Tetris game developed in C# using Microsoft Visual Studio.
+This repository contains an implementation of the classic Tetris game developed in C# using Microsoft Visual Studio
 <p align="left">
   <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/e67133bc60d96561bc247dfbc3eece0a897285c8/icons/CS.svg" alt="c#" width="40" height="40"/>
